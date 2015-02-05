@@ -1,3 +1,31 @@
+###Devise Demo
+demo app for devise 
+
+`gem 'devise'`
+
+`rails generate devise:install`
+
+`rails generate devise user`
+
+add,`config.action_mailer.default_url_options = { host: 'localhost', port: 3000 } `
+in `config/environments/development.rb`
+
+`rails generate devise:controllers users`
+`rails generate devise:views`
+`rails generate devise:controllers users`
+
+
+
+References,
+https://github.com/plataformatec/devise
+
+http://stackoverflow.com/questions/6557311/no-route-matches-users-sign-out-devise-rails-3
+
+http://stackoverflow.com/questions/8003493/devise-sign-out-error
+
+http://blog.steveklabnik.com/posts/2011-12-11-devise-actioncontroller-routingerror-no-route-matches-get-slash-users-slash-sign-out
+
+
 == README
 
 This README would normally document whatever steps are necessary to get the
